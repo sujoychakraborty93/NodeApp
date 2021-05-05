@@ -4,9 +4,9 @@
 // }
 
 exports.sums = (a,b) => {
-    return (a+b)
+    return (parseInt(a)+parseInt(b))
 }
 exports.multiplys = (a, b) => {
-    return (a * b)
+    return (parseInt(a) * parseInt(b))
 }
 
