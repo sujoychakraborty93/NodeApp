@@ -4,7 +4,7 @@ const express = require("express")
 const app = express()
 
 app.get("/", (req, res) => {
-  res.send("first module, fixed defect in branch-2")
+  res.send("first module")
 })
 
 app.listen(4000, () => {
